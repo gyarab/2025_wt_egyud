@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zdravá výživa & Nutriční poradenství</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+  <!-- 🌱 NAVBAR -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#uvod">NutriCoach</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#uvod">Domů</a></li>
+          <li class="nav-item"><a class="nav-link" href="#plan">Plány jídel</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tipy">Tipy & Poradenství</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🥗 ÚVOD -->
+  <section id="uvod" class="py-5 bg-light mt-5">
+    <div class="container">
+      <h1 class="display-5 fw-bold text-center mb-4">Zdravá výživa pro každý den</h1>
+      <p class="lead text-center mb-5">Vyvážené stravování a osobní nutriční poradenství pro lepší životní styl.</p>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" class="img-fluid rounded shadow" alt="Zdravé jídlo">
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3">Individuální přístup</h2>
+          <p class="fs-5">
+            Každý člověk je jedinečný. Nabízíme individuální plány výživy a poradenství, které odpovídají vašemu životnímu stylu.
+            Naučíme vás, jak kombinovat chutné jídlo s nutriční hodnotou.
+          </p>
+          <a href="#kontakt" class="btn btn-success btn-lg px-5 fw-bold shadow-lg">Objednat konzultaci</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🗓️ PLÁNY JÍDEL -->
+  <section id="plan" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Ukázkový týdenní plán jídel</h2>
+      <div class="table-responsive">
+        <table class="table table-striped text-center align-middle">
+          <thead class="table-success">
+            <tr>
+              <th>Den</th>
+              <th>Snídaně</th>
+              <th>Oběd</th>
+              <th>Večeře</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Pondělí</td><td>Ovesná kaše s ovocem</td><td>Grilované kuře s quinou</td><td>Losos se zeleninou</td></tr>
+            <tr><td>Úterý</td><td>Jogurt s müsli</td><td>Cizrnový salát</td><td>Pečená treska s brokolicí</td></tr>
+            <tr><td>Středa</td><td>Smoothie bowl</td><td>Krůtí sendvič se zeleninou</td><td>Špenátové rizoto</td></tr>
+            <tr><td>Čtvrtek</td><td>Avokádový toast</td><td>Lososový salát</td><td>Kuřecí stir-fry</td></tr>
+            <tr><td>Pátek</td><td>Míchaná vejce se zeleninou</td><td>Quinoový salát s tofu</td><td>Grilovaná zelenina s cizrnou</td></tr>
+            <tr><td>Sobota</td><td>Palačinky z celozrnné mouky</td><td>Kuřecí wrap</td><td>Pečený losos s batáty</td></tr>
+            <tr><td>Neděle</td><td>Chia pudink</td><td>Salát s avokádem a fazolemi</td><td>Vegetariánská pizza</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 💡 TIPY & PORADENSTVÍ -->
+  <section id="tipy" class="py-5 bg-success text-light text-center">
+    <div class="container">
+      <h2 class="mb-4">Tipy pro zdravý životní styl</h2>
+      <p class="lead">Malé změny ve stravě mohou přinést velké výsledky. Naučte se, jak jíst vyváženě a bez stresu.</p>
+      <blockquote class="blockquote mt-4">
+        <p class="mb-0">„Nejlepší investice je investice do vašeho zdraví.“</p>
+      </blockquote>
+      <div class="ratio ratio-16x9 mt-4">
+        <iframe src="https://www.youtube.com/embed/RnfHOkFLPj8" title="Tipy od Aleše Lamky" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📝 KONTAKT -->
+  <section id="kontakt" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Objednejte konzultaci</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card shadow">
+            <div class="card-body">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Jméno</label>
+                  <input type="text" class="form-control" id="name" placeholder="Jan Novák" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="email" placeholder="jan@example.com" required>
+                </div>
+                <div class="mb-3">
+                  <label for="service" class="form-label">Typ konzultace</label>
+                  <select id="service" class="form-select" required>
+                    <option selected disabled>Vyberte</option>
+                    <option>Individuální plán jídel</option>
+                    <option>Analýza stravovacích návyků</option>
+                    <option>Sportovní výživa</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="notes" class="form-label">Poznámka</label>
+                  <textarea id="notes" class="form-control" rows="3" placeholder="Např. speciální požadavky nebo alergie"></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-success btn-lg">Odeslat</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 bg-success text-white text-center text-md-start">
+    <div class="container d-md-flex justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0">&copy; 2025 NutriCoach | Design by Sebastian Egyud</p>
+      <ul class="list-inline mb-0">
+        <li class="list-inline-item">
+          <a href="#" class="text-white" data-bs-toggle="modal" data-bs-target="#gdprModal">GDPR</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="text-white" data-bs-toggle="modal" data-bs-target="#tacModal">Terms & Conditions</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+<!-- COOKIE LIŠTA -->
+<div id="cookieBanner" class="fixed-bottom d-flex justify-content-between align-items-center p-3 bg-dark text-light shadow-lg rounded-top mx-3 mb-3" style="display:none; transition: opacity 0.5s;">
+  <div class="me-3">
+    🌐 Tato stránka používá cookies pro lepší funkčnost a analytiku. 
+    <a href="#" class="text-decoration-underline text-warning fw-bold" data-bs-toggle="modal" data-bs-target="#gdprModal">Více info</a>
+  </div>
+  <button type="button" class="btn btn-warning fw-bold" id="acceptCookies">Souhlasím</button>
+</div>
+
+<script>
+  const banner = document.getElementById('cookieBanner');
+
+  // Zkontrolovat, zda už uživatel souhlasil
+  if (localStorage.getItem('cookiesAccepted') !== 'true') {
+    // Zobrazit banner po malém zpoždění pro efekt
+    setTimeout(() => { 
+      banner.style.display = 'flex';
+      banner.style.opacity = '1';
+    }, 500);
+  }
+
+  // Kliknutí na tlačítko souhlasu
+  document.getElementById('acceptCookies').addEventListener('click', () => {
+    localStorage.setItem('cookiesAccepted', 'true');
+    banner.style.opacity = '0';
+    setTimeout(() => { 
+      banner.style.display = 'none'; 
+    }, 500);
+  });
+</script>
+
+
+</body>
+</html>
