@@ -6,7 +6,7 @@ Minecraft se postupně stal jednou z **nejprodávanějších her na světě** a 
 
 ---
 
-## 🧩 Významné přínosy
+## Významné přínosy
 
 * **Tvůrce Minecraftu** – v roce 2009 vydal první verzi hry.
 * **Založil Mojang** – studio, které se staralo o rozvoj Minecraftu.
@@ -15,7 +15,7 @@ Minecraft se postupně stal jednou z **nejprodávanějších her na světě** a 
 
 ---
 
-## 📅 Zajímavosti
+## Zajímavosti
 
 | Rok      | Událost                                                                    |
 | -------- | -------------------------------------------------------------------------- |
@@ -26,7 +26,7 @@ Minecraft se postupně stal jednou z **nejprodávanějších her na světě** a 
 
 ---
 
-## 🧱 Shrnutí
+## Shrnutí
 
 **Markus Persson** je známý jako *otec Minecraftu* – hry, která změnila herní průmysl a inspirovala miliony hráčů po celém světě.
 Jeho příběh ukazuje, že i z malého projektu může vzniknout **fenomén**, který překročí hranice herního světa.
