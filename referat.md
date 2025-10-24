@@ -1,4 +1,4 @@
-Markus Persson (Notch)
+#Markus Persson (Notch)
 Markus Persson (1979, Švédsko) je švédský programátor a herní vývojář, který se proslavil jako tvůrce legendární hry Minecraft.
 V roce 2009 začal na hře pracovat jako osobní projekt a díky jejímu obrovskému úspěchu založil herní studio Mojang. Minecraft se postupně stal jednou z nejprodávanějších her na světě a ovlivnil celou generaci hráčů i vývojářů.
 
